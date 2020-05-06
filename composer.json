@@ -1,0 +1,34 @@
+{
+    "name": "christhompsontldr/laravel-restricted",
+    "description": "Allow users to enter a restricted mode which provides limited functionality.",
+    "authors": [
+        {
+            "name": "Chris Thompson",
+            "email": "christhompsontldr@gmail.com",
+            "homepage": "https://christhompsontldr.com"
+        }
+    ],
+    "keywords": ["laravel" , "auth", "restricted"],
+    "support": {
+        "issues": "https://github.com/christhompsontldr/laravel-restricted/issues",
+        "source": "https://github.com/christhompsontldr/laravel-restricted"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/ui": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Christhompsontldr\\LaravelRestricted\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "type": "project",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Christhompsontldr\\LaravelRestricted\\ServiceProvider"
+            ]
+        }
+    }
+}
